@@ -10,12 +10,11 @@ export default function Home() {
       <Head>
         <title>Title</title>
       </Head>
-      <article>
+      <div>
         <h1>Load Specific Page</h1>
-        <hr />
 
         <PageLoader pagePath="/travel" />
-      </article>
+      </div>
     </>
   )
 }
