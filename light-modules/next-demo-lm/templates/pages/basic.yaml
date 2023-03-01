@@ -1,0 +1,21 @@
+title: 'React: Basic'
+
+baseUrl: http://localhost:3000
+
+dialog: next-demo-lm:pages/basic
+
+renderType: spa
+class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+
+areas:
+  main:
+    title: Main Area
+    availableComponents:
+      Headline:
+        id: next-demo-lm:components/headline
+
+  extras:
+    title: Extras Area
+    availableComponents:
+      Headline:
+        id: next-demo-lm:components/headline

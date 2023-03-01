@@ -1,0 +1,11 @@
+uris:
+  rest:
+    patternString: '*'
+allowedOrigins:
+  - '*'
+allowedMethods:
+  - GET
+  - OPTIONS
+  - POST
+allowedHeaders:
+  - '*'
